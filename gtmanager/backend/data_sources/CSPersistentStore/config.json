@@ -1,0 +1,10 @@
+{
+    "name": "CSPersistentStore",
+    "type": "CSPersistentStore",
+    "config": {
+      "clusterName": "CSPersistentStore",
+      "readPreference": "primary",
+      "wireProtocolEnabled": false
+    },
+    "version": 1
+  }
