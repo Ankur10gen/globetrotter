@@ -1,6 +1,6 @@
 {
     "name": "CSPersistentStore",
-    "type": "CSPersistentStore",
+    "type": "mongodb-atlas",
     "config": {
       "clusterName": "CSPersistentStore",
       "readPreference": "primary",
