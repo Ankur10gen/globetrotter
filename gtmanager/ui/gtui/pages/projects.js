@@ -20,17 +20,28 @@ export default function Projects({ user }) {
   };
   return (
     // We pass the event to the handleSubmit() function on submit.
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="pid">Atlas Project ID</label>
-      <input type="text" id="pid" name="pid" required />
+    <html>
+      <br />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="pid">Atlas Project ID</label>
+          <span>&nbsp;</span>
+          <input type="text" id="pid" name="pid" required />
+          <span>&nbsp;</span>
 
-      <label htmlFor="pubkey">Public Key</label>
-      <input type="text" id="pubkey" name="pubkey" required />
+          <label htmlFor="pubkey">Public Key</label>
+          <span>&nbsp;</span>
+          <input type="text" id="pubkey" name="pubkey" required />
+          <span>&nbsp;</span>
 
-      <label htmlFor="prikey">Private Key</label>
-      <input type="text" id="prikey" name="prikey" required />
+          <label htmlFor="prikey">Private Key</label>
+          <span>&nbsp;</span>
+          <input type="text" id="prikey" name="prikey" required />
+          <span>&nbsp;</span>
 
-      <button type="submit">Submit</button>
-    </form>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </html>
   );
 }
